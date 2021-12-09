@@ -1,0 +1,57 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <link rel="stylesheet" href="shoot.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Quicksand&family=Readex+Pro&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>2 player Shooting Game</title>
+    </head>
+<body>
+    <div class="arena">
+    <div id="game-title">SHOOTING RANGE</div></div>
+    <div class="range">
+    <!--Player 1-->
+    <div class="shooters">
+    <div id="player1Id">
+        <h2 id=p1head>Player1</h2>
+        <figure>
+        <img id="player1" src="player1.jpg" alt="player1" height="170px" width="90px"/>
+        <figcaption id="p1FireScore"></figcaption>
+        </figure>
+    </div>
+    <!--Player 2-->
+    <div id="player2Id">
+        <figure>
+        <img id="player2" src="player2.jpg" alt="player2" height="170px" width="90px">
+        <figcaption id="p2FireScore"></figcaption>
+    </figure>
+        <h2 id="p2head">Player2</h2>
+    </div>
+    
+</div>
+</div>
+    <!--Assigning Buttons-->
+    <br>
+    <div class="buttons">
+    <button id="shootBtn" onclick="shootBtn()">Shoot</button>
+    <span><button id="resetButton" onclick="reset()">Reset</button></span>
+</div>
+    <br><br>
+    <div class="points">
+        <div class="grid-item" id="grid-item-1">Player1</div>
+        <div class="grid-item" id="grid-item-3">Win</div>
+        <div class="grid-item" id="grid-item-4">0</div>
+        <div class="grid-item" id="grid-item-5">Player2</div>
+        <div class="grid-item" id="grid-item-7">Win</div>
+        <div class="grid-item" id="grid-item-8">0</div>
+    </div>
+    <div class="result">
+        <div class="result-item" id="grid-item-9"></div>
+      </div>
+      <script src="shoot.js"></script>
+</body>
+</html>

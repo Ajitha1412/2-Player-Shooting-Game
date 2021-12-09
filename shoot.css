@@ -1,0 +1,141 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+}
+    body{
+    background-color:rgb(46, 42, 35);
+    
+}
+.arena{
+    background-image:url("nightsky.jpg");
+    padding:20px;
+    height:100px;
+    margin-top:0;
+    
+}
+
+#game-title{
+    margin:10px 20px 20px 20px;
+    height:auto;
+    font-size: 2.5em;
+    color:rgb(49, 19, 19);
+    text-align: center;
+    padding:20px;
+    background-color:#28ede0;
+    box-shadow:10px 5px 10px 5px rgb(27, 24, 182),inset 10px 10px 5px #E56717;
+    border-radius: 50%;
+}
+.range{
+    width:auto;
+    height:250px;
+    border:2px solid red;
+}
+.shooters{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#player1Id{
+    display: flex;
+
+}
+
+#p1head{
+    border:5px solid rgb(156, 11, 11);
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    color:rgb(156, 11, 11);
+}
+#player1{
+    margin-left:0;
+    margin-top:4px;
+}
+figcaption{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        background-color:black;
+        border-radius: 50%;
+      
+}
+#player2Id{
+    display: flex;
+}
+
+#p2head{
+    border:5px solid #0096FF;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color:#0096FF;
+}
+#player2{
+    margin-left:0;
+    margin-top:2px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#shootBtn{
+    font-size: 20px;
+    display: inline-block;
+    background-color:#cf2e2e;
+    border: none;
+    margin-right: 10px;
+}
+#shootBtn:hover{
+background-color: #902020;
+}
+#resetButton{
+    font-size: 20px;
+    display: inline-block;
+    background-color:#64991e ;
+    border: none;
+    margin-right: 10px;
+}
+#resetButton:hover{
+    background-color:#507a18;
+    }
+
+.points{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 35% 35% auto;
+    background-color: papayawhip;
+    border:3px solid black;
+    box-shadow: inset 10px 10px 2px rgb(27, 12, 95);
+    padding:5px;
+}
+.grid-item {
+    border: 1px solid rgb(27, 12, 95);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .result {
+    border: 1px solid black;
+    background-color: black;
+    padding: 2px;
+    display: grid;
+    font-weight: bold;
+  }
+  .result-item {
+    background-color: powderblue;
+    border: 1px solid black;
+    margin-left: 25%;
+    padding: 5px;
+    width:50vw;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+
+
+
